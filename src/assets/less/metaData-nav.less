@@ -1,0 +1,250 @@
+/*
+ *
+ *@MetaData-Nav
+ *
+ */
+@import './vars';
+.nav-container {
+  height: 80px;
+  border-bottom: 1px solid #D6D7DD;
+  background: #FAFAFA;
+}
+.mainType {
+  height: 100%;
+  ul {
+    height: 100%;
+  }
+}
+.mainType .mainType__li {
+  height: 100%;
+  float: left;
+  width: 100px;
+  color: #4C525B;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #FAFAFA
+}
+.mainType .mainType__li:hover {
+  width: 100px;
+  background: #FAFAFA;
+}
+.mainType .mainType__li .mainType-box i {
+  display: block;
+  width: 38px;
+  height: 37px;
+  margin: 5px auto 0;
+  background: url("@{imgUrl}/nav/icon_nav.png")
+}
+.home-footer .home-footer-link i {
+  width: 43px;
+  height: 47px;
+  margin-right: 30px;
+  margin-top: -23px;
+}
+.home-footer .home-footer-link .home-footer-icon1 {
+  background: url("@{imgUrl}/yw.png");
+}
+.home-footer .home-footer-link .home-footer-icon2 {
+  background: url("@{imgUrl}/wl.png");
+}
+.home-footer .home-footer-link .home-footer-icon3 {
+  background: url("@{imgUrl}/files-views.png");
+}
+.mainType .mainType__li .mainType-box i.icon_0 {
+  background-position: -304px -0px;
+}
+.mainType .mainType__li .mainType-box i.icon_1 {
+  background-position: -228px -0px;
+}
+.mainType .mainType__li .mainType-box i.icon_2 {
+  background-position: -456px -0px;
+}
+.mainType .mainType__li .mainType-box i.icon_3 {
+  background-position: -38px -37px;
+}
+.mainType .mainType__li .mainType-box i.icon_4 {
+  background-position: -380px -0px;
+}
+.mainType .mainType__li .mainType-box i.icon_5 {
+  background-position: -114px -37px;
+}
+.mainType .mainType__li .mainType-box i.icon_6 {
+  background-position: -0px -37px;
+}
+.mainType .mainType__li .mainType-box i.icon_7 {
+  background-position: -190px -0px;
+}
+.mainType .mainType__li .mainType-box i.icon_8 {
+  background-position: -114px -0px;
+}
+.mainType .mainType__li .mainType-box i.icon_9 {
+  background-position: 0 0;
+}
+.mainType .mainType__li .mainType-box i.icon_10 {
+  background: url("@{imgUrl}/zy.png") center center no-repeat;
+  background-size: contain;
+}
+.mainType .mainType__li .mainType-box i.icon_11 {
+  background-position: -190px -37px;
+}
+.mainType .mainType__li .mainType-box i.icon_12 {
+  background-position: -266px -37px;
+}
+.mainType .mainType__li .mainType-box i.icon_13 {
+  background-position: -342px -37px;
+}
+.mainType .mainType__li .mainType-box i.icon_14 {
+  background-position: 2px -74px;
+}
+.mainType .mainType__li .mainType-box {
+  overflow: hidden;
+}
+.mainType .mainType__li.active {
+  position: relative;
+  width: 100px;
+}
+.mainType .mainType__li:hover .mainType-box, .mainType li.active .mainType-box {
+  background: #E2E4E9
+}
+.mainType li.disabled {
+  color: #C6CBCE;
+  cursor: default;
+}
+.mainType li.disabled i {
+  opacity: 0.6
+}
+.mainType li.disabled:hover, .mainType li.disabled:hover .mainType-box {
+  background: none;
+}
+.mainType li.active:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 80px;
+}
+.mainType .mainType-box {
+  height: 68px;
+  width: 84px;
+  background: #FAFAFA;
+  margin: 6px auto
+}
+.searchInput__delete {
+  width: 17px;
+  height: 17px;
+  background: url("@{imgUrl}/nav/icon_delectInput.png") center no-repeat;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.searchBar {
+  height: 60px;
+  // width: 403px;
+  float: right;
+  margin: 10px 0;
+  padding: 11px 20px;
+  border-left: 1px solid #DFE2E3;
+}
+.searchBar__container {
+  display: inline-block;
+  background: #EEF0F1;
+  height: 38px;
+  border: 1px solid #DFE2E3;
+}
+.searchBar__opt, .searchBar__btn {
+  float: left;
+  height: 100%;
+  line-height: 36px;
+  font-size: 14px;
+}
+.searchBar__opt {
+  width: 310px
+}
+.searchBar__btn {
+  width: 80px;
+  background: #FFF;
+  border-left: 1px solid #DFE2E3;
+  text-align: center;
+  cursor: pointer;
+}
+.searchBar__img {
+  font-size: 18px;
+  color: #BFCBD9;
+  margin-left: 10px;
+  // display:inline-block;
+  // width: 18px;
+  // height: 100%;
+  // background: url("@{imgUrl}/nav/icon_navSearchHover.png") center no-repeat;
+  // background: url("@{imgUrl}/nav/icon_navSearch.png") center no-repeat;
+  // vertical-align: bottom;
+}
+.searchBar__btn:hover {
+  color: #0079F5;
+}
+.searchResultList {
+  position: absolute;
+  width: 282px;
+  top: 37px;
+  left: -1px;
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid #DFE2E3;
+  border-top: 0;
+  background: #FFF;
+  z-index: 2;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, .15)
+}
+.searchResultList.advance {
+  max-height: 700px;
+  left: -100%;
+  width: 474px;
+}
+.searchResultList li {
+  padding: 5px;
+  border-bottom: 1px dashed #EEE;
+  line-height: 22px;
+  font-size: 12px;
+  word-break: break-all;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+.searchResultList li:last-child {
+  border-bottom: 0
+}
+.searchResultList li:hover {
+  background: #F2F2F2;
+}
+.searchResultList li.page {
+  text-align: right;
+}
+.searchInput {
+  display: flex;
+  align-items: center;
+}
+.searchBar__opt .searchInput input {
+  width: auto;
+  border: none;
+  border-radius: 0 !important;
+  box-shadow: none;
+  text-overflow: ellipsis;
+  background: #EEF0F1;
+  font-size: 12px;
+  padding-left: 5px;
+}
+input::-webkit-input-placeholder {
+  color: #D9DCE0;
+}
+.tree-search-input-delete {
+  border: 1px solid transparent;
+  color: #FD8A8B;
+  // position: absolute;
+  // right: 30px;
+  // top: 5px;
+  cursor: pointer;
+}

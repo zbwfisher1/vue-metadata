@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2ad22e7-976c-49db-b38c-3f28fefcdcee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gif/GIF.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gif/GIF2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gif/GIF3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gif/GIF4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gif/GIF5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gif/GIF6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gif/GIF7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gif/GIF8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/gif/GIF9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="287">
+                <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Click to enter</find>
+      <find>currentItem</find>
+      <find>datasetDetail.sjly</find>
+      <find>janurart</find>
+      <find>数据来源</find>
+      <find>expandTopicId</find>
+      <find>isDragging</find>
+      <find>dragOptions</find>
+      <find>isDefault</find>
+      <find>hasApplyAuthority</find>
+      <find>sortTab</find>
+      <find>是</find>
+      <find>fou</find>
+      <find>zbjm</find>
+      <find>consolo</find>
+      <find>userin</find>
+      <find>248px</find>
+      <find>clearSort</find>
+      <find>elTable</find>
+      <find>sub-nav</find>
+      <find>files-name</find>
+      <find>field</find>
+      <find>topNavList</find>
+      <find>createdStorageOptions</find>
+      <find>space-usage-legend</find>
+      <find>focusNodeAdjacency</find>
+      <find>downloadIamge</find>
+      <find>diagramheight</find>
+      <find>onMouseDown</find>
+      <find>LifeCycle</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\metadata\wherehows-web\src\main\webapp\wherehows\build</dir>
+      <dir>E:\metadata\wherehows-web\src\main\webapp\wherehows</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../.." value="5fe369d7d8cd0509f187f1309135e20fe289dd28" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/ImportExport/children/children/CreateTask.vue" />
+        <option value="$PROJECT_DIR$/src/components/ImportExport/Index.vue" />
+        <option value="$PROJECT_DIR$/src/components/ImportExport/children/children/TaskList.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/chiildren/Search.vue" />
+        <option value="$PROJECT_DIR$/src/components/Home/HomeIndex.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/DatasourceDetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/BusinessDetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/DataTypeDetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/Setting.vue" />
+        <option value="$PROJECT_DIR$/src/assets/css/common.css" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/Dialog/TextDialog.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/DatabaseDetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetTreeHeader.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Search.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/Personal.vue" />
+        <option value="$PROJECT_DIR$/src/components/Business/children/AddDataset.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/PersonalApproval.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/PersonalAuthority.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/PersonalChargeMaintain.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/PersonalCollect.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/PersonalOwnerTable.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/PersonalRecord.vue" />
+        <option value="$PROJECT_DIR$/src/store/index.js" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/Files/children/InputTag.vue" />
+        <option value="$PROJECT_DIR$/src/components/common/Search.vue" />
+        <option value="$PROJECT_DIR$/src/mixins/common.js" />
+        <option value="$PROJECT_DIR$/src/service/getData.js" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/PersonalDel.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/a.json" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/DataHistory.vue" />
+        <option value="$PROJECT_DIR$/src/components/MainNav.vue" />
+        <option value="$PROJECT_DIR$/src/components/MainPage.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/Storage.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/Properties.vue" />
+        <option value="$PROJECT_DIR$/src/locale/zh.js" />
+        <option value="$PROJECT_DIR$/src/locale/en.js" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/TableDetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/Files/children/ExportTree.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/Schema.vue" />
+        <option value="$PROJECT_DIR$/src/components/Business/Index.vue" />
+        <option value="$PROJECT_DIR$/src/components/Files/Index.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Personal/PersonalMetaMaintain.vue" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Header.vue" />
+        <option value="$PROJECT_DIR$/config/index.js" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/Diagram.vue" />
+        <option value="$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/RelationalGraph.vue" />
+        <option value="$PROJECT_DIR$/123.txt" />
+        <option value="$PROJECT_DIR$/node.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-130" />
+    <option name="y" value="606" />
+    <option name="width" value="2598" />
+    <option name="height" value="1746" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wherehows" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wherehows" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="11.14.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images/gif" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\metadata\wherehows-web\src\main\webapp\wherehows\src\assets\images\gif" />
+      <recent name="E:\metadata\wherehows-web\src\main\webapp\wherehows\src\assets\js" />
+      <recent name="E:\metadata\wherehows-web\src\main\webapp\wherehows\src\components\MetaData\Dataset\DatasetDetail" />
+      <recent name="E:\metadata\wherehows-web\src\main\webapp\wherehows\src\assets" />
+      <recent name="E:\metadata\wherehows-web\src\main\webapp\wherehows\src\assets\images\business\icon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\metadata\wherehows-web\src\main\webapp\wherehows\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.node.js">
+    <configuration name="node.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="node.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.node.js" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2ad22e7-976c-49db-b38c-3f28fefcdcee" name="Default Changelist" comment="" />
+      <created>1555653247018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555653247018</updated>
+      <workItem from="1555653249293" duration="4799000" />
+      <workItem from="1555659801091" duration="6864000" />
+      <workItem from="1555897819890" duration="30492000" />
+      <workItem from="1556008769080" duration="26316000" />
+      <workItem from="1556156304206" duration="43776000" />
+      <workItem from="1556502192741" duration="466000" />
+      <workItem from="1556502722500" duration="15479000" />
+      <workItem from="1557019699812" duration="15437000" />
+      <workItem from="1557106609096" duration="16268000" />
+      <workItem from="1557193161232" duration="16389000" />
+      <workItem from="1557279021163" duration="14825000" />
+      <workItem from="1557365747217" duration="3333000" />
+      <workItem from="1557394409513" duration="35000" />
+      <workItem from="1557452082387" duration="5121000" />
+      <workItem from="1557711636594" duration="2495000" />
+      <workItem from="1557799259149" duration="75000" />
+      <workItem from="1557886585322" duration="18317000" />
+      <workItem from="1557971396872" duration="18005000" />
+      <workItem from="1558056612756" duration="274000" />
+      <workItem from="1558075266846" duration="99000" />
+      <workItem from="1558087645269" duration="367000" />
+      <workItem from="1558317357240" duration="83000" />
+      <workItem from="1558317493273" duration="12000" />
+      <workItem from="1558322131540" duration="1856000" />
+      <workItem from="1558341529931" duration="7191000" />
+      <workItem from="1558416817631" duration="61000" />
+      <workItem from="1558429520121" duration="140000" />
+      <workItem from="1558505807121" duration="3986000" />
+      <workItem from="1558575547567" duration="5479000" />
+      <workItem from="1558599573597" duration="12063000" />
+      <workItem from="1558926752005" duration="44393000" />
+      <workItem from="1559180692649" duration="10897000" />
+      <workItem from="1559536837129" duration="43250000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="368643000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46091643" visible="true" weight="0.19847812" />
+      <window_info id="Structure" order="1" sideWeight="0.53504044" side_tool="true" weight="0.22828154" />
+      <window_info id="npm" order="2" sideWeight="0.53908354" side_tool="true" weight="0.22828154" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.71967655" />
+      <window_info anchor="bottom" id="TODO" order="3" weight="0.7911051" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5009512" side_tool="true" weight="0.65902966" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.66307276" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49904883" weight="0.56738544" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46133333" visible="true" weight="0.24223208" />
+      <window_info id="Structure" order="1" sideWeight="0.5053908" side_tool="true" weight="0.24984147" />
+      <window_info id="npm" order="2" sideWeight="0.53866667" side_tool="true" weight="0.24223208" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.71967655" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.7911051" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.49460918" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49904883" weight="0.65768194" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5009512" side_tool="true" weight="0.65902966" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32884097" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="metadata-3.4.8.0404" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/metadata-it-3.4.8.1217" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/metadata-3.4.7.1217" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/Cron.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1989" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/Error.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/LineChart.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/Search.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DataImport/DataImportManual.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DataImport/DataImportJob.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DataImport/DataImport.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/TopicTreeItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2058" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/TopicTree.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ImportExport/children/children/children/BlackList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2193" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ImportExport/children/children/children/HdfsSource.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ImportExport/children/children/CompleteData.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ImportExport/children/children/importHeaderItem.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="122" column="21" lean-forward="true" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Home.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/fetch.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/international.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/bus.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MainNav.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MainPage.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/Dataset.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/BusinessDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5661" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/DatabaseDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/DataTypeDetail.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/PropertiesEditor.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-715" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/PropertyItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/Schema.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/VersionControl.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/SampleData.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/TableDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="107" column="11" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Dataset/DatasetDetail/children/LifeCycle.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="129" column="26" lean-forward="true" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Personal/PersonalApproval.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Personal/PersonalAuthority.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="63" column="60" lean-forward="true" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/zh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="1066" column="12" selection-start-line="1066" selection-start-column="12" selection-end-line="1066" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Personal/PersonalOwnerTable.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="72" column="79" lean-forward="true" selection-start-line="72" selection-start-column="79" selection-end-line="72" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Personal/PersonalMetaMaintain.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Personal/PersonalChargeMaintain.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Personal/PersonalCollect.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MetaData/Personal/PersonalRecord.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/gif/GIF.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="287">
+            <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

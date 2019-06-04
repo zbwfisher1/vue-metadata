@@ -1,0 +1,416 @@
+/*
+ *
+ *@公共样式
+ *
+ */
+*:-ms-input-placeholder {
+    /* IE10+ */
+    color: #999;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'microsoft yahei', Verdana, Arial, Helvetica, sans-serif;
+}
+#wrapper {
+    background: #FFF;
+}
+a, a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #0079F5;
+    cursor: pointer;
+}
+img {
+    display: inline-block;
+    border: none;
+}
+body, html {
+    height: 100%;
+}
+body {
+    padding: 0 !important;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+input, select {
+    outline: none;
+}
+.btn {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 0
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+html {
+    min-width: 1400px;
+    overflow: hidden;
+    overflow-x: auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #00699D;
+}
+a.active {
+    color: #0F81DA;
+}
+p {
+    margin: 0;
+}
+dl {
+    margin-bottom: 0;
+}
+label { /*  margin-bottom: 0 !important; */
+    font-weight: normal;
+}
+ul, ol {
+    list-style: none;
+    margin-bottom: 0;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+    border-bottom: 0;
+}
+textarea {
+    resize: none;
+}
+/*.form-control{ height: 28px; padding: 3px 5px; border-color: #ddd; border-radius: 0; font-size: 13px; }*/
+.btn-primary {
+    background: #66B7EF;
+    border-color: #3BABF3;
+}
+.btn-primary:hover {
+    background: #3BABF3;
+    border-color: #259FF1;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary,
+.btn-primary:focus,
+.btn-primary.focus {
+    color: #FFF;
+    background-color: #3BABF3;
+    border-color: #259FF1;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+    color: #FFF;
+    background-color: #3BABF3;
+    border-color: #259FF1;
+}
+.dropdown-menu {
+    margin-top: 0;
+    border-color: #DCDCDC;
+    border-radius: 0
+}
+.dropdown-menu > li > a {
+    padding: 5px 15px;
+}
+.dropdown-menu > li > a:hover {
+    background: #D5ECFE
+}
+.fontError {
+    color: #D9534F
+}
+.fontSuccess {
+    color: #5CB85C
+}
+/*清除ie 叉叉*/
+input::-ms-clear, input::-ms-reveal {
+    display: none;
+}
+.right_panel {
+    background: #EEF0F1;
+}
+.commom-overflow {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    outline: none;
+    vertical-align: top;
+}
+a.commom-overflow {
+    color: #23527C;
+}
+body {
+    background: #EDF1F2;
+    font-size: 12px !important;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/*
+ *
+ *@面包屑导航样式
+ *
+ */
+.title .titShow h4 {
+    font-size: 16px;
+    padding-left: 20px;
+    width: 100%;
+    /* word-break: break-all; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+.title .titShow .path {
+    font-size: 12px;
+    color: #A5AAAC;
+}
+/*
+ *
+ *@暂无数据样式
+ *
+ */
+.noData {
+    margin: 50px 0;
+    text-align: center;
+    color: #CCC;
+}
+.noData i {
+    color: #3BABF3;
+    vertical-align: bottom;
+    display: inline-block;
+    width: 65px;
+    height: 51px;
+    background: url('../images/icon_nodata.png') center center no-repeat;
+}
+.noData p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+/*
+ *
+ *@视图切换
+ *
+ */
+.treeHead {
+    width: 100%;
+    overflow: hidden;
+}
+.treeHead li .btn.btn-primary:focus,
+.treeHead li .btn.btn-primary:hover,
+.treeHead li .btn.btn-primary:active,
+.treeHead li .btn.btn-primary {
+    background: #EDEEF0;
+    border-color: #CCC;
+    color: #333
+}
+.treeHead li {
+    float: left;
+    width: 50%
+}
+.treeHead li:first-child .btn {
+    border-right: 0;
+}
+.treeHead li .btn {
+    width: 100%;
+    background: #FFF;
+    color: #A1A1A1;
+}
+/*
+ *
+ *@表格
+ *
+ */
+.table {
+    margin: 0;
+    table-layout: fixed;
+}
+.tableList > thead > tr > th,
+.tableList > tbody > tr > td {
+    vertical-align: middle;
+    padding: 5px 5px 5px 10px;
+    height: 36px;
+}
+.tableList > thead > tr > th {
+    background-color: #F2F3F5;
+}
+.tableList > tbody > tr > td {
+    background: #FFF;
+}
+.tableList > thead > tr > th.operation,
+.tableList > tbody > tr > td.operation {
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+}
+.tablePages {
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+td {
+    overflow: hidden;
+}
+/*
+ *
+ *@拖动按钮
+ *
+ */
+.tree-container {
+    border: 1px solid #CCC;
+    float: left;
+    width: 360px;
+    height: 280px;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+.tree-controler {
+    width: 10px;
+    height: 66px;
+    position: fixed;
+    left: 250px;
+    top: 50%;
+    z-index: 1;
+    background: url('../images/left_close.png') center center;
+    cursor: pointer;
+}
+.tree-controler:hover {
+    background: url('../images/left_close_active.png') center center;
+}
+.activeTree {
+    background: url('../images/left_open.png') center center;
+    left: 0;
+}
+.activeTree:hover {
+    background: url('../images/left_open_active.png') center center;
+}
+/*
+ *
+ *@带有添加功能的表格，如注释信息，数据导入模块
+ *
+ */
+.addContainer {
+    border: 1px solid #D6D9DC;
+    margin-top: 15px;
+}
+.addContainer-add {
+    height: 36px;
+    padding: 6px 10px;
+    background: #F2F3F5;
+}
+.addContainer-btn {
+    display: inline-block;
+    border-right: 1px solid #E0E3E6;
+    width: 115px;
+    line-height: 24px;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.addContainer-img {
+    float: left;
+    margin: 6px 5px 0 5px;
+    width: 12px;
+    height: 12px;
+    background: url("~assets/images/icon_add.png")
+}
+/*
+ *
+ *@表格标题，右侧按钮组写入table-title__btns里
+ *
+ */
+/*.boxCommon .titIndex>span{
+  display: inline-block;
+  height: 14px;
+  margin-bottom: 15px;
+  padding-left: 5px;
+  border-left: 3px solid #014b70;
+  line-height: 14px;
+  font-size: 14px;
+}
+以前的样式 其他地方都修改为最新的后可删除
+ */
+.tit-detail {
+    display: inline-block;
+    font-size: 12px;
+    color: #A5AAAC;
+}
+/*
+*
+*more-loading的container
+*
+*
+*/
+.tree-loading-container {
+    /*height: calc(100% - 135px);*/
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.tree-dialog-loading-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.refuse-warn {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.red {
+    color: red;
+}
+.yellow {
+    color: yellow;
+}
+.green {
+    color: green;
+}
+.black {
+    color: black;
+}
+.khaki {
+    color: #F0B653;
+}
+.el-cascader-menu {
+    max-width: 300px;
+}
+.el-cascader-menu__item.is-active {
+    color: #77B27B;
+}
+.el-cascader .el-input__inner {
+    color: transparent;
+}

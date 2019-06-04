@@ -1,0 +1,1788 @@
+/*
+ *
+ *@@MetaData-Dataset
+ *
+ */
+@import './vars';
+#MainCon {
+    height: 100%;
+    margin-left: 80px;
+    background: #FFF;
+}
+.el-form-item__error {
+    padding-top: 0
+}
+/*
+ *
+ *@ 新增业务
+ *
+ */
+.addTheme__con {
+    text-align: center;
+    cursor: pointer;
+}
+.addTheme__con img {
+    margin: 20px 0;
+}
+.addTheme__txt {
+    color: #CCC;
+}
+.addThemeBotoom__con {
+    height: 45px;
+    border-top: 1px solid #E5E5E5;
+    line-height: 45px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #FAFAFA;
+    cursor: pointer;
+    color: #3EA5E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i {
+        margin-right: 5px;
+    }
+}
+.addThemeBotoom__con:hover {
+    background: #E9EBEC;
+}
+/*
+ *
+ *@ 树状结构
+ *
+ */
+
+.searchCon {
+    padding: 5px 18px 0 18px;
+}
+.searchCon:nth-of-type(3) {
+    padding: 0 18px 10px 18px;
+}
+.splitter_panel .left_panel.datasetList {
+    overflow: hidden;
+}
+// .splitter_panel .left_panel{height: calc(100% - 205px)};
+.datasetList .loading {
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+    top: 150px;
+}
+.datasetList .noData {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 100px;
+}
+.datasetList .searchWrap {
+    position: relative;
+    height: 25px;
+    padding: 0 10px;
+    background: #EDEEF0;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.datasetList .searchWrap input {
+    width: 90%;
+    height: 25px;
+    line-height: 28px;
+    border: 0;
+    background-color: #EDEEF0
+}
+.datasetList .searchWrap .searchBtn {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    width: 16px;
+    height: 16px;
+    background-color: #FAFAFA;
+    background: url("@{imgUrl}/metaData/icon_search.png") no-repeat;
+}
+.datasetList .treeWrap {
+    border-top: 1px dashed #E5E5E5;
+}
+.datasetList .glyphicon {
+    font-weight: 200;
+    color: #A5A9B5
+}
+.dbList {
+    margin-bottom: 45px;
+}
+.dbList ul {
+    margin-left: 15px;
+}
+.dbList {
+    .tit {
+        display: flex;
+        position: relative;
+        margin-left: -280px;
+        padding-left: 280px;
+        height: 32px;
+        line-height: 32px;
+        cursor: pointer;
+        color: #333;
+        text-decoration: none;
+    }
+    .table-title-name {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-left: -280px;
+        padding-left: 295px;
+        padding-right: 30px;
+        height: 32px;
+        line-height: 32px;
+        cursor: pointer;
+        color: #333;
+        text-decoration: none;
+        i {
+            position: absolute;
+            top: -1px;
+            left: 270px;
+        }
+        .addThemeCheck {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}
+.dbList .tit:hover {
+    background: #F3F3F3;
+}
+.dbList .tit:hover .setting-icon {
+    display: block;
+}
+.dbList .tit.active,
+.dbList .tit.active:hover {
+    color: #FFF;
+    background: #014B70;
+}
+.dbList .tit .foldCon {
+    float: left;
+    width: 24px;
+}
+.dbList .tit .lucky-try {
+    position: absolute;
+    top: 13px;
+    right: 745px;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: red;
+}
+/*数据类型*/
+.dbList .icon-type i.fold {
+    width: 16px;
+    height: 16px;
+    background-position: -28px -0px;
+}
+.dbList .icon-type.active i.fold {
+    background-position: -44px -0px;
+}
+/*文件*/
+.dbList .icon_folder i.fold,
+.dbList.process i.fold {
+    height: 13px;
+    width: 16px;
+    background-position: -92px -0px;
+}
+.dbList .icon_folder.active i.fold,
+.dbList.process .active i.fold {
+    background-position: -108px -0px;
+}
+.dbList .icon_folder.active i.fold.open {
+    background-position: -139px -0px;
+}
+.dbList .icon_folder i.fold.open {
+    background-position: -124px -0px;
+}
+.dbList .active i {
+    background-position: -76px -0px;
+    &.view {
+        background-position: -171px 0;
+    }
+}
+/*表*/
+.dbList i:not(.el-icon) {
+    float: left;
+    width: 20px !important;
+    height: 16px;
+    margin: 9px 8px 0 0;
+    background: url("@{imgUrl}/metaData/icon_datasetTree.png") -60px -0px;
+    flex-shrink: 0;
+    &.view {
+        background-position: 31px 0;
+    }
+}
+/*库*/
+.dbList .icon-DB i.fold {
+    height: 17px;
+    width: 14px;
+    background-position: -0px -0px;
+}
+.dbList .icon-DB.active i.fold {
+    background-position: -14px -0px;
+}
+/*表*/
+.files-table,
+.dbList {
+    .icon {
+        float: left;
+        width: 16px;
+        height: 16px;
+        margin-top: 8px;
+        margin-right: 10px;
+        background: url("@{imgUrl}/metaData/icon_datasetTree.png") 0 center;
+        &.doc-icon {
+            background-position: -224px 0;
+        }
+        &.type-icon {
+            background-position: -32px 0;
+        }
+        &.type-hbase-icon {
+            background-position: -192px 0;
+        }
+        &.fold-icon {
+            background-position: -96px 0;
+        }
+        &.db-icon {
+            background-position: 0 0;
+        }
+        &.table-icon {
+            background-position: -64px 0;
+        }
+        &.table-view-icon {
+            background-position: -160px 0;
+        }
+        &.picture-icon {
+            background-position: -256px 0;
+        }
+        &.video-icon {
+            background-position: -320px 0;
+        }
+        &.document-icon {
+            background-position: -352px 0;
+        }
+        &.audio-icon {
+            background-position: -288px 0;
+        }
+        &.other-icon {
+            background-position: -384px 0;
+        }
+    }
+    .active {
+        .icon {
+            &.doc-icon {
+                background-position: -240px 0;
+            }
+            &.type-icon {
+                background-position: -48px 0;
+            }
+            &.type-hbase-icon {
+                background-position: -208px 0;
+            }
+            &.fold-icon {
+                background-position: -112px 0;
+            }
+            &.db-icon {
+                background-position: -16px 0;
+            }
+            &.table-icon {
+                background-position: -80px 0;
+            }
+            &.table-view-icon {
+                background-position: -176px 0;
+            }
+            &.picture-icon {
+                background-position: -272px 0;
+            }
+            &.video-icon {
+                background-position: -336px 0;
+            }
+            &.document-icon {
+                background-position: -368px 0;
+            }
+            &.audio-icon {
+                background-position: -304px 0;
+            }
+            &.other-icon {
+                background-position: -400px 0;
+            }
+        }
+    }
+}
+.export-seatch-container i.el-input__icon {
+    background: none;
+}
+.dbList.process i {
+    height: 15px;
+    width: 17px;
+    background-position: -196px -0px;
+}
+.dbList.process .active i {
+    background-position: -213px -0px;
+}
+.selected-check-list .list-top-icon {
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    background: url("@{imgUrl}/metaData/icon_datasetTree.png") -60px -0px;
+    vertical-align: middle;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+.black-select-title {
+    i {
+        background: url("@{imgUrl}/metaData/icon_datasetTree.png") -60px -0px;
+    }
+    i.selectFolder {
+        height: 17px !important;
+        background-position: 0 0;
+    }
+}
+/*图标*/
+
+.dbList .name {
+    float: left;
+    max-width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.dbList .tblNum {
+    margin-left: 4px;
+    font-weight: normal;
+    color: #red;
+    font-size: 12px;
+}
+.dbList .foldToggle {
+    position: absolute;
+    right: 18px;
+    top: 13px;
+    width: 6px;
+    height: 6px;
+    background: url("@{imgUrl}/metaData/icon_tree-toggle.png") -6px -0px;
+}
+.dbList .foldToggle.open {
+    background-position: -18px -0px;
+}
+.dbList .active .foldToggle {
+    background-position: 0 0px;
+}
+.dbList .active .foldToggle.open {
+    background-position: -12px -0px;
+}
+.dbList .folder-table-num {
+    position: absolute;
+    right: 30px;
+    color: #CCC;
+}
+.dbList .folder-table-num-business {
+    right: 50px;
+}
+/*
+ *
+ *@tab切换 估计后面会公用
+ *
+ */
+
+.tabs {
+    margin: 0 -20px;
+    padding: 0 20px;
+    border-bottom: 1px solid #E0E0E0;
+    background: #FFF;
+    font-size: 14px;
+    clear: both;
+}
+.tabs li {
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #6D787B;
+    cursor: pointer;
+}
+.tabs li.active {
+    position: relative;
+    top: 2px;
+    color: #00699D;
+    border: 1px solid #E0E0E0;
+    border-bottom-color: #FFF;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.tableMulti > span {
+    height: 30px;
+    line-height: 30px;
+}
+.tableMulti .circle {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #757575;
+    border-radius: 50%;
+    margin: 0 5px 2px 0;
+}
+.tableMulti .index {
+    font-size: 12px;
+    color: #757575;
+}
+.tableMulti:last-child {
+    margin-bottom: 0;
+}
+.tabCon {
+    position: relative;
+    background: #EEF0F1;
+}
+/*.tabCon .boxCommon { margin-top: 20px;}*/
+.tabCon .loading {
+    position: absolute;
+    z-index: 100;
+    top: 100px;
+    left: 50%;
+    margin-left: -45px;
+}
+/*
+ *
+ *@注释信息
+ *
+ */
+.comment {
+    padding: 30px 15px 0;
+    background-color: #FFF;
+}
+.comment:not(:last-child) .wrapper {
+    border-bottom: 1px solid #D6D9DC;
+}
+.comment .row {
+    margin: 0;
+}
+.comment .col-sm-1, .comment .col-sm-11 {
+    padding: 0;
+}
+.comment .wrapper h5 {
+    margin-left: 70px;
+    margin-top: 0;
+    color: #2281FA;
+}
+.comment .wrapper p {
+    margin-left: 70px;
+    font-size: 12px;
+    color: #9CA1A8;
+    min-height: 80px;
+    word-wrap: break-word;
+}
+.comment .icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-right: 20px
+}
+.comment .icon.icon_question {
+    background-image: url('@{imgUrl}/metaData/icon_question.png')
+}
+.comment .icon.icon_comment {
+    background-image: url('@{imgUrl}/metaData/icon_comment.png')
+}
+.comment .icon.icon_usage {
+    background-image: url('@{imgUrl}/metaData/icon_usage.png')
+}
+.comment .icon.icon_app {
+    background-image: url('@{imgUrl}/metaData/icon_app.png')
+}
+.comment .icon.icon_quality {
+    background-image: url('@{imgUrl}/metaData/icon_quality.png')
+}
+.comment .icon.icon_description {
+    background-image: url('@{imgUrl}/metaData/icon_description.png')
+}
+.comment .tit {
+    overflow: hidden;
+}
+.comment .tableName {
+    float: left;
+    font-size: 14px;
+}
+.comment .tableType {
+    float: right;
+    color: #777;
+}
+.comment .tableUrn {
+    margin-top: 10px;
+}
+.comment .tableSchema {
+    margin-top: 10px;
+}
+.comment .btn {
+    padding: 0 4px;
+    border-radius: 0;
+}
+.editWrapper {
+    height: 30px;
+    position: relative;
+}
+.editComment {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    height: 20px;
+}
+.comment .operate:hover {
+    background: #FFF;
+    border-color: #CCC;
+    color: red
+}
+.comment .operate:hover .icon-pencil {
+    background-position: -32px -2px;
+}
+/*
+ *
+ *@数据结构
+ *
+ */
+.schemaComment {
+    float: left;
+    max-width: 500px;
+    /*width: 550px;*/
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+/*
+ *
+ *@血缘关系
+ *
+ */
+.boxCommon {
+    padding: 20px;
+    background: #FFF;
+    width: 100%;
+}
+.boxCommon::-webkit-scrollbar {
+    height: 0
+}
+.boxCommon.iframe {
+    position: relative;
+    min-height: 500px;
+    background: url("@{imgUrl}/loading_bg.png") #FFF center 150px no-repeat;
+}
+.boxCommon.iframe iframe {
+    position: relative;
+    z-index: 10
+}
+.boxCommon .lifeCycle {
+    margin-top: 20px;
+}
+.boxCommon .cycle-column {
+    min-width: 400px;
+    border-radius: 0;
+}
+.boxCommon .table-title .el-button--primary {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    border-radius: 0;
+    font-size: 13px;
+}
+.table-title {
+    overflow: visible;
+    display: flex;
+    margin: 15px 0;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    .table-title__text {
+        display: flex;
+        align-items: center;
+        color: #ccc;
+        span {
+            margin-left: 10px;
+            height: 20px;
+            color: #333;
+            line-height: 20px;
+        }
+        .title-tip {
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+            color: #999;
+            i {
+                margin-right: 5px;
+            }
+        }
+        &:before {
+            display: inline-block;
+            content: "";
+            width: 3px;
+            height: 14px;
+            background-color: #014B70;
+        }
+    }
+}
+/*功能按钮*/
+.boxCommon .tit {
+    background-color: #F2F3F5;
+    padding: 0 0 0 10px;
+    width: inherit;
+    line-height: 36px;
+    border: 1px solid #D9D9D9;
+    border-bottom: none
+}
+.boxCommon .tit a {
+    color: #494D55;
+    padding: 5px
+}
+.boxCommon .tit a:hover {
+    background-color: #D6D9DC;
+    text-decoration: none
+}
+.boxCommon .tit img {
+    display: inline-block;
+    margin-right: 6px;
+}
+.dataImportJob .opt {
+    width: 12%;
+}
+.dataImportJob .btn:hover {
+    background-color: #E5E5E5;
+}
+.dataImportJob .btn:hover span {
+    color: #FF5959;
+    text-align: center;
+    margin-left: 0
+}
+.dataImportJob td .optGroup {
+    width: 80%;
+}
+.dataImportJob .optGroup .btn {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    margin-left: 15px;
+}
+.dataImportJob form {
+    padding: 0 26px;
+}
+.dataImportJob .taskInfo {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.dataImportJob .taskInfo i {
+    color: red;
+    margin-right: 5px;
+    font-style: normal;
+}
+.dataImportJob form .taskInfo:nth-child(2n), .range .taskInfo:nth-child(2n+1) { /* padding-left: 30px; */
+    margin-left: 10px;
+}
+.dataImportJob .range {
+    padding: 10px 26px;
+}
+.dataImportJob .taskInfo .form-control {
+    width: 100%; /* padding: 0 10px; */
+}
+.dataImportJob .form-group label {
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.dataImportJob .taskInfoTit, .rangeTit {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.dataImportJob .taskInfoTit::after {
+    background-color: #E2E2E2;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    left: 15%;
+    position: absolute;
+    top: 10px;
+    width: 85%;
+}
+.dataImportJob .rangeTit::after {
+    background-color: #E2E2E2;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    left: 25%;
+    position: absolute;
+    top: 10px;
+    width: 75%;
+}
+.dataImportRecord .tabCon .boxCommon {
+    box-shadow: 0;
+}
+.dataImportRecord .tabCon td {
+    overflow: hidden;
+}
+.dataImportRecord .tabCon .options {
+    width: 21%
+}
+.dataImportRecord .btn:hover {
+    background-color: #E5E5E5;
+}
+.dataImportRecord .btn:hover span {
+    color: #FF5959;
+    text-align: center;
+    margin-left: 0
+}
+.dataImportRecord .optBtn {
+    margin: 0 auto;
+    width: 80%
+}
+.dataImportRecord .optBtn .btn {
+    display: inline-block;
+    margin-left: 5px;
+    width: 22px;
+    height: 22px;
+    padding: 0
+}
+.dataImportRecord .tableTitle {
+    margin-bottom: 15px
+}
+.dataImportRecord .con .tit {
+    padding-left: 10px;
+    width: inherit;
+    background-color: #F2F3F5;
+    line-height: 36px;
+    border: 1px solid #D9D9D9;
+    border-bottom: none
+}
+.dataImportRecord .con .tit a {
+    color: #6B6C71
+}
+.dataImportRecord .con .tit img {
+    display: inline-block;
+    margin-right: 6px;
+}
+/*
+ *
+ *@个人数据
+ *
+ */
+.personal-list {
+    .personal-wrapper {
+        height: 100%;
+        padding: 0 15px;
+    }
+}
+.personal-list h4 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 40px;
+    height: 35px;
+    margin: 0;
+    border-bottom: 1px dashed #D5D5D8;
+    .icon {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 3px;
+        margin-top: -3px;
+        width: 20px;
+        height: 20px;
+        background: url("@{imgUrl}/metaData/personal_icon.png") no-repeat;
+    }
+    .iconData {
+        background-position: -260px 0;
+    }
+    .iconApply {
+        background-position: -300px 0;
+    }
+    .iconChange {
+        background-position: -340px 0;
+    }
+    .iconImport {
+        display: inline-block;
+        width: 20px;
+        height: 18px;
+        background: url("@{imgUrl}/metaData/import_export_icon.png") no-repeat;
+        background-position: -70px 0;
+    }
+}
+.import_export_icon5 {
+    display: inline-block;
+    vertical-align: middle;
+    height: 17px;
+    margin-top: -3px;
+    margin-right: 5px;
+    background: url("@{imgUrl}/metaData/import_export_icon.png") no-repeat;
+    width: 19px;
+    background-position: -36px 0;
+}
+.import_export_icon6 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 17px;
+    margin-top: -3px;
+    margin-right: 5px;
+    background: url("@{imgUrl}/metaData/import_export_icon.png") no-repeat;
+    width: 20px;
+    background-position: -90px 0;
+}
+.personal-list h4.active .import_export_icon5 {
+    background-position: -18px 0;
+}
+.personal-list h4.active .import_export_icon6 {
+    background-position: 1px 0;
+}
+.personal-list .link {
+    cursor: pointer;
+}
+.personal-list .link:hover {
+    background: #F3F3F3
+}
+.personal-list .link.active {
+    background: #014B70;
+    color: #FFF;
+}
+.personal-list ul {
+    margin: 5px -15px;
+}
+.personal-list ul:last-of-type {
+    border: 0;
+}
+.personal-list li i {
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    margin-right: 2px;
+    margin-top: -1px;
+    vertical-align: middle;
+    background: url("@{imgUrl}/metaData/personal_icon.png") no-repeat;
+}
+.personal-list li i.personal_icon1 {
+    background-position: -100px 0;
+}
+.personal-list .active .personal_icon1 {
+    background-position: -80px 0;
+}
+.personal-list li i.personal_icon2 {
+    background-position: -20px 0;
+}
+.personal-list .active .personal_icon2 {
+    background-position: 0 0;
+}
+.personal-list li i.personal_icon3 {
+    background-position: -60px 0;
+}
+.personal-list .active .personal_icon3 {
+    background-position: -40px 0;
+}
+.personal-list li i.personal_icon4 {
+    background-position: -140px 0;
+}
+.personal-list .active .personal_icon4 {
+    background-position: -120px 0;
+}
+.personal-list li i.personal_icon5 {
+    background-position: -180px 0;
+}
+.personal-list .active .personal_icon5 {
+    background-position: -160px 0;
+}
+.personal-list li i.personal_icon6 {
+    background-position: -220px 0;
+}
+.personal-list .active .personal_icon6 {
+    background-position: -200px 0;
+}
+.personal-list li i.personal_icon7 {
+    background-position: -260px 0;
+}
+.personal-list .active .personal_icon7 {
+    background-position: -240px 0;
+}
+.personal-list li:hover,
+.personal-list .router:hover {
+    background: #F3F3F3;
+}
+.personal-list li.active,
+.personal-list .router.active {
+    background: #014B70;
+    color: #FFF;
+}
+/*
+ *
+ *@表格中的查看按钮，最好换成公用的类名
+ *
+ */
+.table .table-button-parent {
+    // padding: 0;
+}
+.personal-control {
+    // text-align: center;
+}
+.personal-control .el-button {
+    font-size: 13px;
+    height: 25px;
+    line-height: 0;
+}
+.personal-control .el-button:hover {
+    background: #014B70;
+    color: #FFF;
+    border: 1px solid #014B70;
+}
+//lineage
+.fullscreen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0 0 100px;
+    z-index: 1000;
+    overflow-y: scroll;
+}
+.chart-container {
+    background: #FFF;
+    border: 1px solid #D1DBE5;
+    padding: 25px;
+}
+.table-tit {
+    display: flex;
+    line-height: 14px;
+}
+.tit-detail {
+    color: #9EA5AA;
+    span {
+        margin-left: 0 !important;
+    }
+}
+.tit-detail > span:last-of-type .division-flag {
+    display: none;
+}
+.datasourceDetail .chart-header {
+    display: flex;
+    justify-content: space-between;
+}
+.date-picker-container {
+    height: 40px;
+    display: flex;
+    .el-date-editor {
+        .el-range__icon {
+            line-height: 22px;
+        }
+        .el-range-separator {
+            line-height: 22px;
+        }
+        .el-range__close-icon {
+            line-height: 22px;
+        }
+    }
+}
+.date-picker-container span {
+    vertical-align: top;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #98A1A7;
+    margin-right: 10px;
+}
+.date-picker-container .el-range-separator {
+    line-height: 27px;
+    padding: 0;
+}
+.icon-pencil {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("@{imgUrl}/icon_pencil.png") no-repeat;
+    background-position: -16px -2px;
+    vertical-align: middle;
+}
+.icon-pencil:hover {
+    background-position: -32px -2px;
+}
+.setting-container {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    right: 25px;
+    top: 3px;
+    cursor: pointer;
+}
+.setting-con {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38px;
+}
+.setting-con .setting-icon {
+    display: none;
+    width: 16px;
+    height: 16px;
+    background: url("@{imgUrl}/icon_setting.png") -16px -0px no-repeat;
+    margin: 5px 7px;
+}
+.active .setting-con {
+    color: #333;
+}
+.active .setting-con .setting-icon {
+    background-position: -0px -0px;
+}
+.setting-con:hover .setting-icon {
+    background-position: -32px -0px;
+    cursor: pointer;
+}
+.dialog__dbList {
+    margin: 0
+}
+.itemDisable {
+    background: #F3F3F5;
+    color: #D6D7D9;
+}
+.del-content {
+    word-wrap: break-word;
+    display: block;
+    white-space: normal;
+    text-align: left;
+}
+/*
+ *
+ *@businessDetail中的样式(以及其他对话框中存在树状结构的样式)
+ *
+ */
+.dbList {
+    overflow: hidden;
+}
+.business-detail-container .dialogComment {
+    width: 890px !important;
+}
+.dialogTitle .el-row {
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #E2E2E2;
+    margin-bottom: -1px;
+}
+.businessCheckBox .addThemeCheck {
+    height: 32px;
+}
+.businessCheckBox .check-group-container {
+    background: #FFF;
+}
+.business-list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.dialogComment .businessCheckBox {
+    width: 458px;
+    height: 400px;
+}
+.business-list-container .dbList {
+    margin: 0;
+}
+.dialogComment .selected-list-box {
+    width: 314px;
+}
+.dialogComment .selected-list-box .check-group-container {
+    background: #FFF;
+}
+.dialogComment .selected-list-box li {
+    cursor: pointer;
+}
+.dialogComment .selected-list-box .show-title {
+    flex-shrink: 0;
+}
+.select-center {
+    align-self: center;
+}
+.check-group-container .loading {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.business-select-title {
+    font-weight: normal;
+    font-size: 14px;
+}
+.selected-check-list li {
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
+    padding: 0 10px;
+    border-bottom: 1px solid #DDD;
+}
+.selected-check-list .el-icon-close {
+    line-height: 35px;
+    color: #C5C8D0;
+    font-size: 12px;
+    cursor: pointer;
+}
+.businessCheckBox {
+    position: relative;
+    border: 1px solid #DDD;
+    .check-group-container {
+        margin-top: 35px;
+        overflow-y: auto;
+        height: 310px;
+    }
+}
+.addtheme-searchWrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    line-height: 33px;
+    border-bottom: 1px solid #DDD;
+    background: #FFF;
+    input {
+        width: 100%;
+        height: 100%;
+        text-indent: 10px;
+        border: 0;
+    }
+    .search-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 35px;
+        background-color: #f5f7fa;
+        border: none;
+        border-left: 1px solid #DDD;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+.businessTrrError {
+    color: red;
+    font-size: 12px;
+}
+.selected-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 270px;
+}
+/*
+ *
+ *@businessTreeItem中的样式(以及其他对话框中存在树状结构的样式)
+ *
+ */
+
+.setting-con {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 38px;
+}
+.setting-con .setting-icon {
+    display: none;
+    width: 16px;
+    height: 16px;
+    background: url("@{imgUrl}/icon_setting.png") -16px -0px no-repeat;
+}
+.active .setting-con {
+    color: #333;
+}
+.setting-con:hover .setting-icon {
+    background-position: -32px -0px;
+    cursor: pointer;
+}
+.liUnderLine {
+    border-bottom: 1px solid #E2E2E2;
+}
+.dialog__dbList {
+    margin: 0
+}
+.addThemeCheck {
+    float: right;
+    height: 32px;
+    cursor: pointer;
+    // pointer-events: none;
+}
+.itemDisable {
+    background: #F3F3F5;
+    color: #D6D7D9;
+}
+/*
+ *
+ *@DatasetTreeHeader.vue
+ *
+ */
+.tree-control-icon {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url("@{imgUrl}/metaData/view_control_icon.png") no-repeat;
+    cursor: pointer;
+}
+.tree-control-icon.icon2 {
+    background-position: -27px 0;
+}
+.tree-control-icon.icon3 {
+    background-position: -40px 0;
+}
+.dataset-tree-title {
+    margin: 0;
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: bold;
+    .iconfont {
+        font-size: 13px;
+        cursor: pointer;
+        color: #999;
+        &:hover {
+            color: #000;
+        }
+    }
+}
+.qtip-content {
+    padding: 0 !important;
+}
+.setting-con__toolBar {
+    margin-left: 0 !important;
+}
+.setting-con__toolBar li {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.setting-con__toolBar li:hover {
+    background: #EEF0F1;
+    cursor: pointer;
+}
+.import-validator {
+    margin-top: 10px;
+    color: red;
+    font-size: 12px;
+}
+.iconPass {
+    display: block !important;
+    background: url("@{imgUrl}/icon_pass.png") no-repeat;
+}
+.iconFail {
+    display: block !important;
+    background: url("@{imgUrl}/icon_noPass.png") no-repeat;
+}
+/*
+ *
+ *@ImportExport.vue
+ *
+ */
+.import_export_list.title {
+    font-size: 13px;
+}
+.import_export_list.subTitle {
+    font-size: 12px;
+}
+/*
+ *
+ *@ImportHeaderItem.vue
+ *
+ */
+.el-row-wrap {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.import-header-item {
+    height: 100px;
+    .import-header-content {
+        height: 100%;
+        display: flex;
+        align-items: stretch;
+        padding: 15px 15px 15px 0;
+        cursor: pointer;
+        background: #EFF5F6;
+    }
+    .item-left {
+        width: 90px;
+        width: 25% \9 \0;
+        margin-right: 27px;
+        border-right: 1px solid #CDDADE;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        i {
+            display: inline-block;
+            width: 35px;
+            height: 40px;
+            background: url("@{imgUrl}/metaData/import_export.png") no-repeat;
+        }
+        .import_item_icon1 {
+            background-position: 0 0;
+        }
+        .import_item_icon2 {
+            background-position: -34px 0;
+        }
+    }
+    .item-right {
+        width: 70% \9 \0;
+        h4 {
+            font-size: 14px;
+        }
+        p {
+            color: #9499A3;
+        }
+    }
+}
+/*
+ *
+ *@ImportModule.vue
+ *@ExportModule.vue
+ *
+ */
+.import-module-header {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #FFF;
+}
+.import-export-dialog {
+    .el-dialog__body {
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+}
+.export-success {
+    color: #22B66F;
+}
+.export-success:hover {
+    color: #22B66F;
+}
+.export-fail {
+    color: red;
+}
+.export-fail:hover {
+    color: red;
+}
+.tableList a {
+    line-height: 25px;
+}
+.load-more {
+    line-height: 36px;
+    margin-left: -280px;
+    padding-left: 325px;
+    cursor: pointer;
+    color: #084C6F;
+}
+.dialog-load-more {
+    line-height: 36px;
+    margin-left: -280px;
+    padding-left: 415px;
+    cursor: pointer;
+    color: #084C6F;
+    border-bottom: 1px solid #EEE;
+}
+.search-result-title {
+    padding-top: 15px;
+}
+.configuration-list-header {
+    .table-search {
+        margin-top: 1px;
+    }
+    .el-button--primary {
+        float: right;
+        margin-left: 10px;
+    }
+}
+.table-search-item {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    b {
+        color: #C00;
+    }
+}
+.iconfont {
+    cursor: pointer;
+}
+.box {
+    width: 100%;
+    height: 100%;
+}
+.el-icon-wrapper {
+    i {
+        font-size: 18px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+}
+
+.custom-tree-node {
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    padding-right: 25px;
+    height: 100%;
+    line-height: 26px;
+    .icon-checkbox {
+        position: absolute;
+        right: 5px;
+        top: 0;
+        height: 100%;
+        width: 14px;
+        background: url("@{imgUrl}/icon/checkbox.png") center center no-repeat;
+        &.checked {
+            background-image: url("@{imgUrl}/icon/checkbox-checked.png");
+        }
+        &.disabled {
+            background-image: url("@{imgUrl}/icon/checkbox-disabled.png");
+        }
+        &.remove {
+            background-image: url("@{imgUrl}/icon/remove.png");
+            &:hover {
+                background-image: url("@{imgUrl}/icon/remove-hover.png");
+            }
+        }
+    }
+}
+.wrapper-content {
+    float: left;
+    width: calc(~"100% - 80px");
+    .custom-resizer {
+        width: 100%;
+        height: 100%;
+        > .pane {
+            z-index: auto;
+            text-align: left;
+            padding: 0 15px;
+            border-right: 1px solid #CCC;
+            > .menu-list {
+                overflow: hidden;
+                margin: 0 -15px;
+            }
+            ~ .pane {
+                overflow: auto !important;
+                border-left: 1px solid #CCC;
+                background-color: #EEF0F1;
+                z-index: auto;
+                flex-basis: 0;
+                .sub-nav {
+                    margin: 0 -15px 15px;
+                    padding-left: 15px;
+                    height: 35px;
+                    line-height: 35px;
+                    background-color: #FFF;
+                    ul {
+                        display: flex;
+                        li {
+                            font-size: 12px;
+                            color: #888;
+                            .active {
+                                color: #014b70;
+                                cursor: pointer;
+                                &:hover {
+                                    text-decoration: underline;
+                                }
+                            }
+                            .split-line {
+                                margin: 0 5px;
+                            }
+                        }
+                    }
+                }
+                .main {
+                    position: relative;
+                    padding: 15px;
+                    background-color: #FFF;
+                    min-height: calc(~ '100% - 65px');
+                    > .el-pagination {
+                        padding: 0;
+                        margin-top: 20px;
+                        text-align: right;
+                    }
+                }
+            }
+            .pane-title {
+                display: flex;
+                height: 40px;
+                border-bottom: 1px dashed #DDD;
+                justify-content: space-between;
+                margin-top: -15px;
+                margin-bottom: 5px;
+                .title {
+                    margin: 0;
+                    line-height: 39px;
+                    font-weight: bold;
+                }
+            }
+        }
+        > .multipane-resizer {
+            margin: 0;
+            left: 0;
+            position: relative;
+            &:before {
+                display: block;
+                content: "";
+                width: 3px;
+                height: 40px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -20px;
+                margin-left: -1.5px;
+                border-left: 1px solid #CCC;
+                border-right: 1px solid #CCC;
+            }
+            &:hover {
+                &:before {
+                    border-color: #999;
+                }
+            }
+        }
+    }
+}
+#insert-data,
+#config-blacklist {
+    .el-form {
+        .header-setting {
+            display: flex;
+            align-items: center;
+            .el-form-item {
+                text-align: left;
+            }
+            .header-tip {
+                color: #CCC;
+            }
+        }
+    }
+    .dbList {
+        margin-bottom: 0;
+        ul {
+            margin-left: 0;
+        }
+    }
+    .database-list {
+        li {
+            .database-item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 15px;
+                height: 32px;
+                line-height: 32px;
+                border-bottom: 1px solid #E2E2E2;
+                .item-name {
+                    overflow: hidden;
+                    width: 100%;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+                &:hover {
+                    cursor: pointer;
+                    background: #F3F3F5;
+                }
+            }
+            .database-list {
+                li {
+                    .database-item {
+                        padding-left: 42px;
+                    }
+                    .more {
+                        height: 32px;
+                        line-height: 32px;
+                        text-align: center;
+                        border-bottom: 1px solid #E2E2E2;
+                        color: #05608A;
+                        &:hover {
+                            color: #23527C;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .icon {
+                width: 16px;
+                margin-right: 8px;
+            }
+            .el-checkbox {
+                .el-checkbox__label {
+                    display: none;
+                }
+            }
+        }
+    }
+    .headerCon {
+        display: flex;
+        justify-content: space-between;
+        > .leftBox {
+            width: 40%;
+        }
+        .rightBox {
+            width: 60%;
+            text-align: right;
+        }
+        margin: 30px 0;
+        .el-radio__label {
+            display: inline;
+            color: #666;
+            font-size: 12px;
+        }
+        > div:last-child {
+            color: #CCC;
+        }
+    }
+    .black-list-container {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        .list-title {
+            line-height: 30px;
+        }
+    }
+    .tree-wrap {
+        border: 1px solid #DADADA;
+        height: 500px;
+        overflow: auto;
+    }
+    .tree-search {
+        border: 1px solid #DADADA;
+        border-bottom: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input {
+            border: 0;
+        }
+        input::-webkit-input-placeholder {
+            color: #CCC;
+        }
+        input::-moz-placeholder {
+            color: #CCC;
+        }
+        input::-ms-input-placeholder {
+            color: #CCC;
+        }
+        i {
+            font-size: 18px;
+            margin-right: 10px;
+            color: #4087F6;
+        }
+    }
+    .black-list-left {
+        width: 40%;
+        position: relative;
+        .dbList {
+            margin: 0;
+        }
+        .list-title {
+        }
+    }
+    .black-list-center {
+        display: flex;
+        align-items: center;
+        i {
+            display: block;
+            padding: 3px;
+            border: 1px solid #CCC;
+        }
+        i:first-child {
+            margin-bottom: 8px;
+        }
+    }
+    .black-list-right {
+        width: 40%;
+        .tree-wrap {
+            height: 531px;
+        }
+    }
+}
+
+.answer-dialog {
+    width: 400px;
+    .el-message-box__header {
+        height: auto;
+        padding: 10px 20px;
+        border-bottom: none;
+        .el-message-box__headerbtn {
+            top: 2px;
+        }
+    }
+    .el-message-box__content {
+        height: auto;
+        p {
+            font-size: 14px;
+            text-align: left;
+            padding: 10px 20px;
+        }
+    }
+    .el-message-box__btns {
+        height: auto;
+        padding: 0 20px;
+        background-color: transparent;
+    }
+}
+
+.tab-box {
+    border-bottom: 1px solid #CCC;
+    li {
+        float: left;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: #6D787B;
+        cursor: pointer;
+        border: 1px solid #CCC;
+        border-right: none;
+        border-bottom: none;
+        background-color: #F5F5F5;
+        span {
+            display: block;
+            position: relative;
+            top: 0;
+            height: 40px;
+            padding: 0 20px;
+        }
+        &:last-child {
+            border-right: 1px solid #CCC;
+        }
+        &.active {
+            border-top: 2px solid #014B70;
+            line-height: 38px;
+            color: #00699D;
+            background-color: #FFF;
+            span {
+                background-color: #FFF;
+            }
+        }
+    }
+}
+.sub-nav {
+    margin: 0;
+    padding: 0 15px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #FFF;
+    ul {
+        display: flex;
+        li {
+            font-size: 12px;
+            color: #888;
+            .active {
+                color: #014b70;
+                cursor: pointer;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .split-line {
+                margin: 0 5px;
+            }
+        }
+    }
+}
