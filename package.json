@@ -85,6 +85,7 @@
     "lodash": "^4.17.4",
     "lolex": "^1.4.0",
     "mocha": "^3.1.0",
+    "mockjs": "^1.0.1-beta3",
     "mongodb": "^2.1.19",
     "morgan": "^1.7.0",
     "nightwatch": "^0.9.8",

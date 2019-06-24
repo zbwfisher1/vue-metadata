@@ -31,6 +31,7 @@ import {getStore, removeStore} from './config/mUtils';
 import {textFieldLength} from '@/config/env';
 import axios from './config/http';
 import VueFilter from 'vue-filter';
+import mock from './mock' // 刚刚手写的mock.js文件
 
 Vue.component('chart', ECharts);
 Vue.component(VTable.name, VTable);
@@ -68,6 +69,7 @@ const messages = {
 };
 
 axios.all([authenticate(), currentLang()]).then(axios.spread(function (auth, currentLang) {
+    debugger
     const {statusCode: statusCode1, message: message1} = auth.data;
     const {statusCode: statusCode2, message: message2} = currentLang.data;
 

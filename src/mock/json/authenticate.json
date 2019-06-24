@@ -1,0 +1,10 @@
+{
+  "result": true,
+  "statusCode": 200,
+  "message": {
+    "projects": "Public_Repository,p_tom,hbasetest",
+    "roles": "leapid.admin",
+    "userName": "leapadmin",
+    "hive.encrypt": false
+  }
+}
