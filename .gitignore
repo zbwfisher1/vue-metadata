@@ -5,3 +5,4 @@ test/e2e/reports
 selenium-debug.log
 *.DS_Store
 /config/index.js
+.idea

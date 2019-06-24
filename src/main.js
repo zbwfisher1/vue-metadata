@@ -69,7 +69,6 @@ const messages = {
 };
 
 axios.all([authenticate(), currentLang()]).then(axios.spread(function (auth, currentLang) {
-    debugger
     const {statusCode: statusCode1, message: message1} = auth.data;
     const {statusCode: statusCode2, message: message2} = currentLang.data;
 

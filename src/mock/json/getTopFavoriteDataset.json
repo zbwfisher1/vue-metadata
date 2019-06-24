@@ -1,0 +1,12 @@
+{
+  "result": true,
+  "statusCode": 200,
+  "message": [
+    {
+      "path": "mysql/test_mysql/metadata/wh_etl_job_execution",
+      "name": "wh_etl_job_execution",
+      "id": 4581635,
+      "totalCount": 1
+    }
+  ]
+}
