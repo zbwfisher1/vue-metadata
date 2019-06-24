@@ -1,0 +1,12 @@
+{
+  "result": true,
+  "statusCode": 200,
+  "message": {
+    "Owner": 1582,
+    "Collect": 1,
+    "Authority": 76,
+    "Approvals": 0,
+    "Deleted": 0,
+    "Applys": 0
+  }
+}

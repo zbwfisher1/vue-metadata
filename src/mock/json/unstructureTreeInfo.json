@@ -1,0 +1,11 @@
+{
+  "result": true,
+  "statusCode": 200,
+  "message": [
+    {
+      "databaseNum": 68,
+      "tableNum": 1301,
+      "datasourceName": "LEAP-HDFS"
+    }
+  ]
+}
