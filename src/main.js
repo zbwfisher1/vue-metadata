@@ -31,6 +31,7 @@ import {getStore, removeStore} from './config/mUtils';
 import {textFieldLength} from '@/config/env';
 import axios from './config/http';
 import VueFilter from 'vue-filter';
+import mock from './mock';      //模拟接口文件,如果不需要,可以去除
 
 Vue.component('chart', ECharts);
 Vue.component(VTable.name, VTable);
@@ -49,13 +50,13 @@ Vue.prototype.axios = axios;
 
 //全局混入,会影响到 所有 之后创建的 Vue 实例.请注意哦
 Vue.mixin({
-    data: function () {
+    data: function() {
         return {
             textFieldLength
         };
     },
     methods: {
-        getPermission: function (url, type = 'get') {
+        getPermission: function(url, type = 'get') {
             return this.axios[type](`${url}?testPrivilege=1`);
         }
     }
@@ -67,7 +68,7 @@ const messages = {
     zh: Object.assign(cnContent, zhLocale)
 };
 
-axios.all([authenticate(), currentLang()]).then(axios.spread(function (auth, currentLang) {
+axios.all([authenticate(), currentLang()]).then(axios.spread(function(auth, currentLang) {
     const {statusCode: statusCode1, message: message1} = auth.data;
     const {statusCode: statusCode2, message: message2} = currentLang.data;
 

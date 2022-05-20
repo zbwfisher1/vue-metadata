@@ -1,0 +1,86 @@
+{
+  "result": true,
+  "statusCode": 200,
+  "message": [
+    {
+      "name": "job05",
+      "path": "hive/LEAP-Hive/datahub02/job05",
+      "id": 4579325,
+      "databaseName": "datahub02",
+      "datasourceName": "LEAP-Hive",
+      "rate": 100
+    },
+    {
+      "name": "zp3log_orl",
+      "path": "hive/LEAP-Hive/default/zp3log_orl",
+      "id": 4579352,
+      "databaseName": "default",
+      "datasourceName": "LEAP-Hive",
+      "rate": 100
+    },
+    {
+      "name": "flow_dag",
+      "path": "mysql/test_mysql/metadata/flow_dag",
+      "id": 4581562,
+      "databaseName": "metadata",
+      "datasourceName": "test_mysql",
+      "rate": 50
+    },
+    {
+      "name": "flow_execution",
+      "path": "mysql/test_mysql/metadata/flow_execution",
+      "id": 4581563,
+      "databaseName": "metadata",
+      "datasourceName": "test_mysql",
+      "rate": 50
+    },
+    {
+      "name": "flow_execution_bak",
+      "path": "mysql/test_mysql/metadata/flow_execution_bak",
+      "id": 4581564,
+      "databaseName": "metadata",
+      "datasourceName": "test_mysql",
+      "rate": 50
+    },
+    {
+      "name": "flow_job",
+      "path": "mysql/test_mysql/metadata/flow_job",
+      "id": 4581567,
+      "databaseName": "metadata",
+      "datasourceName": "test_mysql",
+      "rate": 50
+    },
+    {
+      "name": "flow_owner_permission",
+      "path": "mysql/test_mysql/metadata/flow_owner_permission",
+      "id": 4581568,
+      "databaseName": "metadata",
+      "datasourceName": "test_mysql",
+      "rate": 50
+    },
+    {
+      "name": "flow_schedule",
+      "path": "mysql/test_mysql/metadata/flow_schedule",
+      "id": 4581569,
+      "databaseName": "metadata",
+      "datasourceName": "test_mysql",
+      "rate": 50
+    },
+    {
+      "name": "flow_source_id_map",
+      "path": "mysql/test_mysql/metadata/flow_source_id_map",
+      "id": 4581570,
+      "databaseName": "metadata",
+      "datasourceName": "test_mysql",
+      "rate": 50
+    },
+    {
+      "name": "job04",
+      "path": "hive/LEAP-Hive/datahub02/job04",
+      "id": 4579324,
+      "databaseName": "datahub02",
+      "datasourceName": "LEAP-Hive",
+      "rate": 50
+    }
+  ]
+}

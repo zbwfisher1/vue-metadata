@@ -1,0 +1,11 @@
+{
+  "result": true,
+  "statusCode": 200,
+  "message": {
+    "mdataEntry": "http://demo211.test.com:8110/index.html",
+    "leapidEntry": "http://demo212.test.com:8089/leapid-admin/view/pm/index.html",
+    "procEntry": "http://demo214.test.com:9999/TaskSchedule/",
+    "sqlEntry": "https://leapsql.211.test.com",
+    "dhubEntry": "http://demo214.test.com:4018/"
+  }
+}

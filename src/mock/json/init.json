@@ -1,0 +1,153 @@
+{
+  "result": true,
+  "statusCode": 200,
+  "message": {
+    "roleLevel": 1,
+    "projectList": [
+      {
+        "id": 58,
+        "name": "DKYmBmmU",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 46,
+        "name": "Public_Repository",
+        "manager": null,
+        "creator": "",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 55,
+        "name": "YGkJgsjD",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 63,
+        "name": "cd",
+        "manager": "rptest",
+        "creator": "rptest",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 53,
+        "name": "datahub-pro2",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 54,
+        "name": "datahub-项目三",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 52,
+        "name": "datahub_pro1",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 62,
+        "name": "dsd",
+        "manager": null,
+        "creator": "rptest",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 61,
+        "name": "hbasedemo",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 60,
+        "name": "hbasetest",
+        "manager": "xm1",
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 47,
+        "name": "leapsql",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 50,
+        "name": "p1",
+        "manager": "xm1",
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 51,
+        "name": "p2",
+        "manager": "xm2",
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 56,
+        "name": "p_tom",
+        "manager": "leapadmin",
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 49,
+        "name": "pjOgtBVb",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 59,
+        "name": "sAkcrwHI",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 48,
+        "name": "super",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      },
+      {
+        "id": 57,
+        "name": "tamcGIZJ",
+        "manager": null,
+        "creator": "leapadmin",
+        "idSet": null,
+        "type": null
+      }
+    ]
+  }
+}

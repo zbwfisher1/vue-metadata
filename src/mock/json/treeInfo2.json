@@ -1,0 +1,21 @@
+{
+  "result": true,
+  "statusCode": 200,
+  "message": [
+    {
+      "databaseNum": 7,
+      "tableNum": 132,
+      "datasourceName": "LEAP-Hive"
+    },
+    {
+      "databaseNum": 1,
+      "tableNum": 117,
+      "datasourceName": "test_mysql"
+    },
+    {
+      "databaseNum": 7,
+      "tableNum": 32,
+      "datasourceName": "test_hbase"
+    }
+  ]
+}

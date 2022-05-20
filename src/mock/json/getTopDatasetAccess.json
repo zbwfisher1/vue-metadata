@@ -1,0 +1,66 @@
+{
+  "result": true,
+  "statusCode": 200,
+  "message": [
+    {
+      "path": "hive/LEAP-Hive/datahub02/job05",
+      "name": "job05",
+      "id": 4579325,
+      "totalCount": 5
+    },
+    {
+      "path": "hive/LEAP-Hive/default/child_test_public1",
+      "name": "child_test_public1",
+      "id": 4581872,
+      "totalCount": 4
+    },
+    {
+      "path": "hbase/test_hbase/hbase01/kucun",
+      "name": "kucun",
+      "id": 4581658,
+      "totalCount": 4
+    },
+    {
+      "path": "hbase/test_hbase/tbase/CBR1",
+      "name": "CBR1",
+      "id": 4581671,
+      "totalCount": 3
+    },
+    {
+      "path": "hbase/test_hbase/dbase/CBR1",
+      "name": "CBR1",
+      "id": 4581648,
+      "totalCount": 2
+    },
+    {
+      "path": "hbase/test_hbase/rpbase/PERSON1",
+      "name": "PERSON1",
+      "id": 4581663,
+      "totalCount": 2
+    },
+    {
+      "path": "hive/LEAP-Hive/default/a",
+      "name": "a",
+      "id": 4582935,
+      "totalCount": 2
+    },
+    {
+      "path": "hive/LEAP-Hive/default/child_test_public2",
+      "name": "child_test_public2",
+      "id": 4581873,
+      "totalCount": 2
+    },
+    {
+      "path": "hive/LEAP-Hive/default/japanese_log",
+      "name": "japanese_log",
+      "id": 4579337,
+      "totalCount": 2
+    },
+    {
+      "path": "mysql/test_mysql/metadata/metadata_topic",
+      "name": "metadata_topic",
+      "id": 4581611,
+      "totalCount": 2
+    }
+  ]
+}

@@ -39,8 +39,10 @@
 基于 vue2 + vue-router + vuex + axios + vue-i18n + ES6 + less 并使用webpack打包
 ```
 ### 使用项目
+
+#### 记得把config目录下的'index.bak.js' 改成 'index.js'.才跑得起来哦!npm run build 命令出在项目外生成文件.需要注意一下.
 ```
-1.克隆项目：      git clone git@10.100.216.157:LEAP/Metadata.git
+1.克隆项目：      git clone
 2.安装nodejs
 3.安装依赖：      npm install
 4.启动服务：      npm run dev
